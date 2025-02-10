@@ -3,7 +3,7 @@ A system for creating multiple password-locked interactions to trigger any event
 
 **Dependencies**
 
-E interact system --> https://github.com/darktrovx/interact
+[E] interact system --> https://github.com/darktrovx/interact
 
 qb-core
 
