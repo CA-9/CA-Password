@@ -54,10 +54,12 @@ end)
 RegisterNetEvent("CA-ALERT", function()
     local alert = lib.alertDialog({
         header = 'Heli Garage',
-        content = 'You Have Opend The Garage Menu Successfully!',
+        content = 'You have opened the garage menu successfully!',
         centered = true,
         cancel = true
     })
-    TriggerEvent("qb-heli:client:openMenu")
-    print(alert)
+
+    if alert == "confirm" then
+        TriggerEvent("qb-heli:client:openMenu")
+    end
 end)
